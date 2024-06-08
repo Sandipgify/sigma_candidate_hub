@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace candidatehub.Domain
+namespace candidatehub.Domain.Entity
 {
     public class Candidate
     {

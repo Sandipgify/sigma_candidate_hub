@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "candidatehub.Infrastructure
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "candidatehub.Web", "candidatehub.Web\candidatehub.Web.csproj", "{016668A8-3177-4E79-A05E-0BDB4FF3B58D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "candidatehub.testing", "candidatehub.testing\candidatehub.testing.csproj", "{EA02560F-7FA6-4668-859E-989690245719}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{016668A8-3177-4E79-A05E-0BDB4FF3B58D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{016668A8-3177-4E79-A05E-0BDB4FF3B58D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{016668A8-3177-4E79-A05E-0BDB4FF3B58D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA02560F-7FA6-4668-859E-989690245719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA02560F-7FA6-4668-859E-989690245719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA02560F-7FA6-4668-859E-989690245719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA02560F-7FA6-4668-859E-989690245719}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
