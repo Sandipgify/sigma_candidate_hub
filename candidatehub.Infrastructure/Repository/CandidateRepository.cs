@@ -1,4 +1,4 @@
-﻿using candidatehub.Domain;
+﻿using candidatehub.Domain.Entity;
 using candidatehub.Domain.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using System;

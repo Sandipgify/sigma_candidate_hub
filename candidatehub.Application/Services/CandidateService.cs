@@ -1,7 +1,7 @@
 ﻿using candidatehub.Application.DTO;
 using candidatehub.Application.Interface;
 using candidatehub.Application.Validation;
-using candidatehub.Domain;
+using candidatehub.Domain.Entity;
 using candidatehub.Domain.Infrastructure;
 using FluentValidation;
 
