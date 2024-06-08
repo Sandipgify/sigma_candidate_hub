@@ -1,4 +1,6 @@
-﻿using candidatehub.Infrastructure;
+﻿using candidatehub.Domain.Infrastructure;
+using candidatehub.Infrastructure;
+using candidatehub.Infrastructure.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,6 +20,8 @@ namespace candidatehub.Application
             services.AddDbContext<CandidateHubContext>(options =>
             options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),x => x.MigrationsAssembly("candidatehub.Web")));
 
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<ICandidateRepository, CandidateRepository>();
             return services;
         }
 

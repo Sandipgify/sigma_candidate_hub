@@ -1,4 +1,6 @@
-﻿using FluentValidation;
+﻿using candidatehub.Application.Interface;
+using candidatehub.Application.Services;
+using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
@@ -10,6 +12,8 @@ namespace candidatehub.Application
         {
             var assembly = typeof(DependencyResolution).Assembly;
             services.AddValidatorsFromAssembly(assembly);
+
+            services.AddScoped<ICandidateService, CandidateService>();
             return services;
         }
     }
