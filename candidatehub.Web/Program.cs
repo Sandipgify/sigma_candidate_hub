@@ -8,6 +8,8 @@ builder.Services.AddApplication().
     AddPresentation().
     AddInfrastructure();
 
+builder.Services.AddDbContext(builder.Configuration);
+
 builder.Services.ConfigureSerilog(builder.Configuration);
 
 builder.Services.AddControllers();
